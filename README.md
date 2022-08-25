@@ -25,7 +25,4 @@ NOTE: Top Languages does not indicate my skill level or anything like that; it's
 
 <img style="display: block; margin: auto;" src="https://github-readme-stats.vercel.app/api?username=skierhy&show_icons=true&theme=tokyonight" />
 
-<br/>
-<br/>
-
 <img style="display: block; margin: auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skierhy&layout=compact&theme=tokyonight" />
