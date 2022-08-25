@@ -23,13 +23,9 @@ Languages and Tools:
 
 NOTE: Top Languages does not indicate my skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub.
 
-<a style="display: block; margin: auto;" href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=skierhy&show_icons=true&theme=tokyonight" />
-</a>
+<img style="display: block; margin: auto;" src="https://github-readme-stats.vercel.app/api?username=skierhy&show_icons=true&theme=tokyonight" />
 
 <br/>
 <br/>
 
-<a style="display: block; margin: auto;" href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skierhy&layout=compact&theme=tokyonight" />
-</a>
+<img style="display: block; margin: auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skierhy&layout=compact&theme=tokyonight" />
