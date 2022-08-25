@@ -1,9 +1,9 @@
-### Hi there 👋
+## Hi there 👋
 
 I'm Leonardo Nolasco, a passionate self-taught Front-End Development from Mexico.
 
 - 🔭 I am an Engineering in Computer Science student at BUAP
-- 🌱 I’m currently learning Angular, Git + GitHub and JS
+- 🌱 I’m currently learning Angular, Git + GitHub, JS and TS
 - 😄 Pronouns: Skierhy
 - ⚡ Fun fact: I love videogames and anime
 
