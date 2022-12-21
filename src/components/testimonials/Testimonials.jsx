@@ -1,4 +1,4 @@
 import './testimonials.css';
 export const Testimonials = () => {
-	return <div>Testimonials</div>;
+	return <section id='testimonials'>Testimonials</section>;
 };
