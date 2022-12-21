@@ -1,5 +1,5 @@
 import './about.css';
-import ME from '../../assets/sobre-mi (1).jpg';
+import ME from '../../assets/sobre-mi.jpg';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -25,30 +25,30 @@ export const About = () => {
 						<div className='about__cards'>
 							<article className='about__card'>
 								<FaAward className='about__icon' />
-								<h5>Experience</h5>
-								<small>3+ años de trabajo</small>
+								<h5>Licenciatura </h5>
+								<small>
+									Ingeniería en Ciencias de la Computación
+								</small>
 							</article>
 
 							<article className='about__card'>
 								<FiUsers className='about__icon' />
-								<h5>Clientes</h5>
-								<small>3+ clientes</small>
+								<h5>Cursos</h5>
+								<small>5 Curso</small>
 							</article>
 
 							<article className='about__card'>
 								<VscFolderLibrary className='about__icon' />
-								<h5>Proyectos</h5>
-								<small>10+ Completados</small>
+								<h5>Proyectos en GitHub</h5>
+								<small>30+ Realizados</small>
 							</article>
 						</div>
 
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Obcaecati autem quia, eligendi deserunt neque
-							iusto dolorem reprehenderit molestias. Error
-							repellendus illo praesentium! Ipsa aut
-							necessitatibus, quis quidem veritatis modi
-							assumenda?
+							Hola, Soy Leonardo, soy recién egresado de la
+							universidad Benemérita Universidad Autónoma de
+							Puebla, empezando en el desarrollo web en la parte
+							de Front-end.
 						</p>
 
 						<a href='#contact' className='btn btn-primary'>
