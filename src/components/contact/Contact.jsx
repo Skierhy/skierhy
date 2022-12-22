@@ -1,13 +1,14 @@
 import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
+import emailjs from '@emailjs/browser';
 import './contact.css';
 
 export const Contact = () => {
 	const [message, setMessage] = useState(false);
 	const formRef = useRef();
+
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setMessage(true);
@@ -26,9 +27,9 @@ export const Contact = () => {
 					console.log(error.text);
 				}
 			);
-
 		e.target.reset();
 	};
+
 	return (
 		<section id='contact'>
 			<h5>Ponerte en contacto</h5>
@@ -37,6 +38,7 @@ export const Contact = () => {
 				correo para su contacto).
 			</h5>
 			<h2>Contáctame</h2>
+			{/* contacto */}
 			<div className='container contact__container'>
 				<div className='contact__options'>
 					<article className='contact__option'>
@@ -47,6 +49,7 @@ export const Contact = () => {
 							Envíame un correo Electrónico
 						</a>
 					</article>
+
 					<article className='contact__option'>
 						<BsWhatsapp className='contact__option-icon' />
 						<h4>WhatsApp</h4>
@@ -55,36 +58,38 @@ export const Contact = () => {
 							Envíame un mensaje por WhatsApp
 						</a>
 					</article>
+
 					<article className='contact__option'>
 						<RiMessengerLine className='contact__option-icon' />
 						<h4>Facebook</h4>
 						<h5>Leonardo Naje</h5>
 						<a href='https://m.me/leonardoa239/'>
-							Envíame mensaje por privado Facebook
+							Envíame mensaje por privado en Facebook
 						</a>
 					</article>
 				</div>
+				{/* formulario */}
 				<form ref={formRef} onSubmit={handleSubmit}>
 					<input
 						type='text'
-						placeholder='Your Full Name'
+						placeholder='Nombre completo'
 						name='name'
 						required
 					/>
 					<input
-						type='text'
-						placeholder='Your Email'
+						type='email'
+						placeholder='Tu correo electrónico'
 						name='email'
 						required
 					/>
 					<textarea
-						placeholder='Your message'
+						placeholder='Tu mensaje'
 						rows='7'
 						name='message'
 						required
 					></textarea>
 					<button type='submit' className='btn btn-primary'>
-						Send Message
+						Enviar Mensaje
 					</button>
 					{message && (
 						<span>Gracias, responderé lo antes posible</span>
