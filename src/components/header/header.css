@@ -1,9 +1,11 @@
+/* etiqueta */
 header {
-	height: 100vh;
+	height: 100%;
 	padding-top: 7rem;
 	overflow: hidden;
 }
 
+/* header component */
 .header__container {
 	text-align: center;
 	height: 100%;
@@ -11,7 +13,6 @@ header {
 }
 
 /* CTA component */
-
 .cta {
 	margin-top: 2.5rem;
 	display: flex;
@@ -20,7 +21,6 @@ header {
 }
 
 /* headerSocials component */
-
 .header__socials {
 	display: flex;
 	flex-direction: column;
@@ -31,6 +31,7 @@ header {
 	bottom: 3rem;
 }
 
+/* pasar sobre mis redes sociales con el curso */
 .header__socials::after {
 	content: '';
 	width: 1px;
@@ -38,7 +39,7 @@ header {
 	background: var(--color-primary);
 }
 
-/* me */
+/* fondo de mi foto  */
 .me {
 	background: rgb(44, 44, 108);
 	background: linear-gradient(
@@ -67,7 +68,6 @@ header {
 }
 
 /* media query para dispositivos medianos por ejemplo tablet  */
-
 @media screen and (max-width: 1024px) {
 	header {
 		height: 68vh;
@@ -75,7 +75,6 @@ header {
 }
 
 /* media query para dispositivos pequeños por ejemplo teléfonos  */
-
 @media screen and (max-width: 600px) {
 	header {
 		height: 100vh;
