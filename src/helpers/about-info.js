@@ -21,5 +21,5 @@ export const aboutCards = [
 
 export const aboutInfo = {
 	description:
-		'Hola, Soy Luis Leonardo, soy un desarrollador Front-end recién egresado. Apasionado por la tecnología. Me gusta crear cosas que vivan en la web. Me gradué en Benemérita Universidad Autónoma de Puebla en la licenciatura en Ingeniería en Ciencias de la Computación. Mi pasatiempo favorito es jugar videojuegos, ver series y películas, y escuchar música. Actualmente estoy buscando mi primer empleo como desarrollador Front-end.',
+		'Hola, soy Luis Leonardo, actualmente soy un desarrollador Front-end recién egresado la Benemérita Universidad Autónoma de Puebla en la licenciatura en Ingeniería en Ciencias de la Computación. Me apasiona la tecnología, al mismo tiempo en crear aplicaciones web. Mis pasatiempos favoritos es jugar videojuegos, escuchar música, ver series y ensamblar computadoras. Actualmente estoy buscando mi primer empleo como desarrollador Front-end.',
 };
