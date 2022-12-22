@@ -23,12 +23,7 @@ export const About = () => {
 					<div className='about__content'>
 						<div className='about__cards'>
 							{aboutCards.map((card) => {
-								return (
-									<AboutCard
-										key={aboutCards.id}
-										card={card}
-									/>
-								);
+								return <AboutCard key={card.id} card={card} />;
 							})}
 						</div>
 
