@@ -1,8 +1,9 @@
-import { CTA } from './CTA';
-import './header.css';
-import ME from '../../assets/me.png';
 import { HeaderSocials } from './HeaderSocials';
+import { CTA } from './CTA';
+// import ME from '../../assets/me.png';
+import './header.css';
 
+// este componente es el principal del header el cual incluye el cta y los socials
 export const Header = () => {
 	return (
 		<>
@@ -14,11 +15,11 @@ export const Header = () => {
 					<CTA />
 					<HeaderSocials />
 
-					<div className='me'>
+					{/* <div className='me'>
 						<img src={ME} alt='mi foto' />
-					</div>
+					</div> */}
 					<a href='#contact' className='scroll__down'>
-						Scroll hasta abajo
+						Ir hasta abajo
 					</a>
 				</div>
 			</header>

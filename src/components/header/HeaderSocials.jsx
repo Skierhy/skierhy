@@ -1,6 +1,7 @@
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 
+// en este componente es sobre las redes sociales
 export const HeaderSocials = () => {
 	return (
 		<>

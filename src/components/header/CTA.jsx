@@ -1,5 +1,6 @@
 import CV from '../../assets/Luis_Leonardo_Nolasco_Najera_Front-end_Jr.pdf';
 
+// en este componente se usa para descargar el CV y ir a la sección de contacto
 export const CTA = () => {
 	return (
 		<>

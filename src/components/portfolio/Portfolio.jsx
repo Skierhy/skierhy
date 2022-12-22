@@ -1,29 +1,5 @@
 import './portfolio.css';
-import IMG from '../../assets/portfolio1.jpg';
-
-const data = [
-	{
-		id: 1,
-		image: IMG,
-		title: 'Un proyecto',
-		github: 'https://github.com',
-		demo: 'https://demo.com',
-	},
-	{
-		id: 2,
-		image: IMG,
-		title: 'Un proyecto2',
-		github: 'https://github.com',
-		demo: 'https://demo.com',
-	},
-	{
-		id: 3,
-		image: IMG,
-		title: 'Un proyecto3',
-		github: 'https://github.com',
-		demo: 'https://demo.com',
-	},
-];
+import { portfolioInfo } from '../../helpers/portfolio-info';
 export const Portfolio = () => {
 	return (
 		<>
@@ -32,11 +8,14 @@ export const Portfolio = () => {
 				<h2>Portafolio</h2>
 
 				<div className='container portfolio__container'>
-					{data.map(({ id, image, title, github, demo }) => {
+					{portfolioInfo.map(({ id, image, title, github, demo }) => {
 						return (
 							<article className='portfolio__item' key={id}>
 								<div className='portfolio__item-image'>
-									<img src={image} alt={`image${id}`} />
+									<img
+										src={image}
+										alt={`proyecto imagen numero:${id}`}
+									/>
 								</div>
 								<h3>{title}</h3>
 								<div className='portfolio__item-cta'>
@@ -53,6 +32,11 @@ export const Portfolio = () => {
 										className='btn btn-primary'
 										target='_blank'
 										rel='noreferrer'
+										style={
+											demo === ''
+												? { display: 'none' }
+												: {}
+										}
 									>
 										Demo
 									</a>
@@ -61,6 +45,8 @@ export const Portfolio = () => {
 						);
 					})}
 				</div>
+				<br />
+				<h5>Los demás proyectos esta en mi github</h5>
 			</section>
 		</>
 	);
