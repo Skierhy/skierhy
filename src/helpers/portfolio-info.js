@@ -39,7 +39,7 @@ export const portfolioInfo = [
 		image: 'https://i.postimg.cc/s2f32y45/1.png',
 		title: 'Gif Expert App',
 		github: 'https://github.com/Skierhy/Gif-Expert-App',
-		demo: "https://gif's-react-skierhy.netlify.app/",
+		demo: 'https://gifs-react-skierhy.netlify.app/',
 	},
 	{
 		id: 7,
