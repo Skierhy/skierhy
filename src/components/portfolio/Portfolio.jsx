@@ -46,7 +46,16 @@ export const Portfolio = () => {
 					})}
 				</div>
 				<br />
-				<h5>Los demás proyectos esta en mi github</h5>
+				<h5>Los demás proyectos esta en mi GitHub</h5>
+				<h2>
+					<a
+						href='https://github.com/Skierhy'
+						target='_blank'
+						rel='noreferrer'
+					>
+						Link de mi GitHub
+					</a>
+				</h2>
 			</section>
 		</>
 	);
