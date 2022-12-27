@@ -7,6 +7,10 @@ I'm Leonardo Nolasco, a passionate self-taught Front-End Development from Mexico
 - 😄 Pronouns: Skierhy
 - ⚡ Fun fact: I love videogames and anime
 
+## portfolio
+
+<https://skierhy.github.io/skierhy/>
+
 Languages and Tools:
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
