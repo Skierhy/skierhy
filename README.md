@@ -11,7 +11,7 @@ I'm Leonardo Nolasco, a passionate self-taught Front-End Development from Mexico
 
 <https://skierhy.github.io/skierhy/>
 
---
+----
 
 Languages and Tools:
 
