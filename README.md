@@ -8,7 +8,10 @@ I'm Leonardo Nolasco, a passionate self-taught Front-End Development from Mexico
 - ⚡ Fun fact: I love videogames and anime
 
 ## portfolio
+
 <https://skierhy.github.io/skierhy/>
+
+--
 
 Languages and Tools:
 
