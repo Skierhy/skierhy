@@ -2,16 +2,11 @@ export const frontEndInfo = [
 	{
 		id: 1,
 		tecnologia: 'HTML5',
-		nivel: 'Avanzado',
+		nivel: 'Intermedio',
 	},
 	{
 		id: 2,
 		tecnologia: 'CSS3',
-		nivel: 'Intermedio',
-	},
-	{
-		id: 3,
-		tecnologia: 'SASS',
 		nivel: 'Intermedio',
 	},
 	{
@@ -30,16 +25,6 @@ export const frontEndInfo = [
 		nivel: 'Básico',
 	},
 	{
-		id: 7,
-		tecnologia: 'Angular',
-		nivel: 'básico',
-	},
-	{
-		id: 8,
-		tecnologia: 'TypeScript',
-		nivel: 'Básico',
-	},
-	{
 		id: 9,
 		tecnologia: 'Redux',
 		nivel: 'Básico',
@@ -49,13 +34,28 @@ export const frontEndInfo = [
 		tecnologia: 'Jest',
 		nivel: 'Básico',
 	},
+	{
+		id: 3,
+		tecnologia: 'SASS',
+		nivel: 'Básico',
+	},
+	{
+		id: 8,
+		tecnologia: 'TypeScript',
+		nivel: 'Básico',
+	},
+	// {
+	// 	id: 7,
+	// 	tecnologia: 'Angular',
+	// 	nivel: 'básico',
+	// },
 ];
 
 export const backEndInfo = [
 	{
 		id: 1,
 		tecnologia: 'PHP',
-		nivel: 'Intermedio',
+		nivel: 'Básico',
 	},
 	{
 		id: 2,
