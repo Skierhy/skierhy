@@ -3,6 +3,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import './footer.css';
 
 export const Footer = () => {
+	const year = new Date();
 	return (
 		<footer>
 			<a href='#' className='footer__logo'>
@@ -43,7 +44,9 @@ export const Footer = () => {
 				</a>
 			</div>
 			<div className='footer__copyright'>
-				<small>&copy; 2022. Todos los derechos reservados.</small>
+				<small>
+					&copy; {year.getFullYear()}. Todos los derechos reservados.
+				</small>
 			</div>
 		</footer>
 	);

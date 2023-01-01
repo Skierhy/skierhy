@@ -34,7 +34,7 @@ export const Contact = () => {
 		<section id='contact'>
 			<h5>Ponerte en contacto</h5>
 			<h5>
-				Responderé lo antes posible sin son validos (proporcione un
+				Responderé lo antes posible si son validos (proporcione un
 				correo para su contacto).
 			</h5>
 			<h2>Contáctame</h2>
@@ -54,7 +54,11 @@ export const Contact = () => {
 						<BsWhatsapp className='contact__option-icon' />
 						<h4>WhatsApp</h4>
 						<h5>+52 1 (222) 878 0487</h5>
-						<a href='https://api.whatsapp.com/send?phone=5212228780487'>
+						<a
+							href='https://api.whatsapp.com/send?phone=5212228780487'
+							target='_blank'
+							rel='noreferrer'
+						>
 							Envíame un mensaje por WhatsApp
 						</a>
 					</article>
@@ -63,7 +67,11 @@ export const Contact = () => {
 						<RiMessengerLine className='contact__option-icon' />
 						<h4>Facebook</h4>
 						<h5>Leonardo Naje</h5>
-						<a href='https://m.me/leonardoa239/'>
+						<a
+							href='https://m.me/leonardoa239/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							Envíame mensaje por privado en Facebook
 						</a>
 					</article>
